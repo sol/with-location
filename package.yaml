@@ -1,0 +1,16 @@
+name: with-location
+version: 0.0.0
+synopsis: Use ImplicitParams-based source locations in a backward compatible way
+maintainer: Simon Hengel <sol@typeful.net>
+license: MIT
+github: sol/with-location
+category: Data
+
+ghc-options: -Wall
+
+dependencies: base == 4.*
+
+library:
+  source-dirs: src
+  include-dirs: includes
+  install-includes: with-location.h
