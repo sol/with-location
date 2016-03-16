@@ -12,3 +12,11 @@ dependencies: base == 4.*
 
 library:
   source-dirs: src
+
+tests:
+  spec:
+    source-dirs: test
+    main: Spec.hs
+    dependencies:
+      - hspec
+      - with-location
