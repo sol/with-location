@@ -1,5 +1,5 @@
 name: with-location
-version: 0.0.0
+version: 0.1.0
 synopsis: Use ImplicitParams-based source locations in a backward compatible way
 maintainer: Simon Hengel <sol@typeful.net>
 license: MIT
@@ -12,5 +12,3 @@ dependencies: base == 4.*
 
 library:
   source-dirs: src
-  include-dirs: includes
-  install-includes: with-location.h

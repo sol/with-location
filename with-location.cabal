@@ -1,9 +1,9 @@
--- This file has been generated from package.yaml by hpack version 0.10.0.
+-- This file has been generated from package.yaml by hpack version 0.11.0.
 --
 -- see: https://github.com/sol/hpack
 
 name:                   with-location
-version:                0.0.0
+version:                0.1.0
 synopsis:               Use ImplicitParams-based source locations in a backward compatible way
 category:               Data
 homepage:               https://github.com/sol/with-location#readme
@@ -22,10 +22,6 @@ library
   hs-source-dirs:
       src
   ghc-options: -Wall
-  include-dirs:
-      includes
-  install-includes:
-      with-location.h
   build-depends:
       base == 4.*
   exposed-modules:
