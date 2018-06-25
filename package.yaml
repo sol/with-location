@@ -20,3 +20,6 @@ tests:
     dependencies:
       - hspec
       - with-location
+    verbatim: |
+      build-tool-depends:
+          hspec-discovery:hspec-discovery

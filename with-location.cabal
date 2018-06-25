@@ -1,6 +1,8 @@
--- This file has been generated from package.yaml by hpack version 0.11.0.
+-- This file has been generated from package.yaml by hpack version 0.28.2.
 --
 -- see: https://github.com/sol/hpack
+--
+-- hash: 7c8d7528532beaef71447d60e0278eb539b57567514e507d06833d8dee3a612b
 
 name:                   with-location
 version:                0.1.0
@@ -23,9 +25,11 @@ library
       src
   ghc-options: -Wall
   build-depends:
-      base == 4.*
+      base ==4.*
   exposed-modules:
       Data.WithLocation
+  other-modules:
+      Paths_with_location
   default-language: Haskell2010
 
 test-suite spec
@@ -35,9 +39,12 @@ test-suite spec
       test
   ghc-options: -Wall
   build-depends:
-      base == 4.*
+      base ==4.*
     , hspec
     , with-location
   other-modules:
       Data.WithLocationSpec
+      Paths_with_location
   default-language: Haskell2010
+  build-tool-depends:
+      hspec-discovery:hspec-discovery
